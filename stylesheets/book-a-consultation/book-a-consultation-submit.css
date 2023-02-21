@@ -1,0 +1,17 @@
+.book_a_consultation__submit{
+	width: 100px;
+	height: 40px;
+	margin: 1em auto;
+	display: block;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	transition: all .1s ease-in-out;
+}
+
+.book_a_consultation__submit:hover {
+	background-color: #ffd900;
+	color: black;
+	border: 1px solid #ffcd00;
+}

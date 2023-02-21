@@ -1,0 +1,32 @@
+.service__name{
+    border-bottom: 1px solid transparent;   
+    transition: border .2s ease-in;
+}
+
+.service__name, .service center:last-of-type {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.service__name:after {
+    transition: all ease-in-out .5s;
+    background: #ff006e; 
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+}
+  
+.service__name:hover:after {
+    width: 125px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.service__name:hover {
+      color: #ff006e;
+}
+

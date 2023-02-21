@@ -1,0 +1,18 @@
+
+@media screen and (min-width: 0) {
+    .services__container {
+        display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .services__container{
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        justify-content: space-around;
+        align-items: initial;
+    }
+}
+

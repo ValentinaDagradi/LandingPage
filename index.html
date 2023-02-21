@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Product Landing Page</title>
+	<script src="https://kit.fontawesome.com/79ab2276fe.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="stylesheets/header/header.css">
+    <link rel="stylesheet" href="stylesheets/header/header-img.css">
+    <link rel="stylesheet" href="stylesheets/newsletter/newsletter.css">
+    <link rel="stylesheet" href="stylesheets/newsletter/newsletter-email.css">
+    <link rel="stylesheet" href="stylesheets/newsletter/newsletter-submit.css">
+    <link rel="stylesheet" href="stylesheets/header/nav.css">
+    <link rel="stylesheet" href="stylesheets/newsletter/newsletter-submit.css">
+    <link rel="stylesheet" href="stylesheets/services/services.css">
+    <link rel="stylesheet" href="stylesheets/services/services-container.css">
+    <link rel="stylesheet" href="stylesheets/services/services-title.css">
+    <link rel="stylesheet" href="stylesheets/services/service.css">
+    <link rel="stylesheet" href="stylesheets/services/service-name-container.css">
+    <link rel="stylesheet" href="stylesheets/services/service-name.css">
+    <link rel="stylesheet" href="stylesheets/services/service-description.css">
+    <link rel="stylesheet" href="stylesheets/preview/preview.css">
+    <link rel="stylesheet" href="stylesheets/preview/preview-description.css">
+    <link rel="stylesheet" href="stylesheets/book-a-consultation/book-a-consultation.css">
+    <link rel="stylesheet" href="stylesheets/book-a-consultation/book-a-consultation-dropdown.css">
+    <link rel="stylesheet" href="stylesheets/book-a-consultation/book-a-consultation-submit.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+	<header class="header">
+		<img src="https://cdn.dribbble.com/users/360821/screenshots/1319651/ll-styling-logo-final.png" class="header__img">
+		<nav class="nav">
+			<ul class="nav__items">
+				<li class="nav__item"><a href="#newsletter" class="nav__link">Newsletter</a></li>
+				<li class="nav__item"><a href="#services" class="nav__link">Our services</a></li>
+				<li class="nav__item"><a href="#book_a_consultation" class="nav__link">Book a consultation</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="newsletter" id="newsletter">
+			<form class="newsletter__form" action="https://www.freecodecamp.com/email-submit">
+			  <h2>Newsletter</h2>
+			  <p>Subscribe to our newletter to get inspiration, tips and the latest offers to your inbox</p>
+			  <input type="email" name="email" class="newsletter__email" placeholder="Enter your email here">
+			  <input type="submit" name="submit" class="newsletter__submit">
+		    </form>
+		</section>
+		<section class="services" id="services">
+			<h2 class="services__title">Our services</h2>
+			<div class="services__container">
+				<div class="service">
+					<div class="service__name--container"><h3 class="service__name"><center>IMAGE DEVELOPMENT PACKAGE</center></h3></div>
+					<p class="service__description"><i class="fa-solid fa-check"></i>Personalized Style-Strategy: eliminates the confusion over how to dress, what to wear for your body type and coloring.</p>
+					<p class="service__description"><i class="fa-solid fa-check"></i>Visual Style Guide: real world outfit examples designed to suit your unique style, that you will easily recreate.</p>
+					<p class="service__description"><i class="fa-solid fa-check"></i>Stores + Brands Database: recommended places to shop from to achieve your style.</p>
+					<hr>
+					<p class="service__description"><center>$1,995.00</center></p>
+				</div>
+				<div class="service">
+					<div class="service__name--container"><h3 class="service__name"><center>CLOSET EDIT PACKAGE</center></h3></div>
+					<p class="service__description"><i class="fa-solid fa-check"></i>9-Step Personalized Closet Edit: results in an expert determination of exactly what to do with each item in your wardrobe.</p>
+					<p class="service__description"><i class="fa-solid fa-check"></i>Outfit Creation: learn how to make new outfit combinations using what you already own.</p>
+					<p class="service__description"><i class="fa-solid fa-check"></i>Future Shopping List: a personalized breakdown of what’s missing in your closet, and suggestions on what to add.</p>
+					<hr>
+					<p class="service__description"><center>$995.00</center></p>
+				</div>
+				<div class="service">
+					<div class="service__name--container"><h3 class="service__name"><center>ONLINE SHOPPING PACKAGE</center></h3></div>
+					<p class="service__description"><i class="fa-solid fa-check"></i>Full-service, 100% done for you concierge personal shopping.</p>
+					<p class="service__description"><i class="fa-solid fa-check"></i>Digital Shopping Portal: with links to a wide variety of suggested products, all uniquely selected to suit your preferences.</p>
+					<p class="service__description"><i class="fa-solid fa-check"></i>Concierge Services: our team will place and coordinate all online orders and have packages delivered to your home.</p>
+					<hr>
+					<p class="service__description"><center>$4,495.00</center></p>
+				</div>
+			</div>
+		</section>
+		<center><section class="preview">
+			<p class="preview__description">Are you ready? Take a glimpse at what to expect from one of our consultations:</p>
+			<iframe width="250" height="396.75" src="https://www.youtube.com/embed/t9SS6q4Ksuw" title="Personal Styling at Nordstrom: Services for Everyone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+		</section>
+		<section class="book_a_consultation" id="book_a_consultation">
+		<h2>Book a consultation</h2>
+		<p>You’re in the right place and we’d be thrilled to support you on your journey to creating a sense of style that makes you feel like YOU!</p>
+		<select name="book" class="book_a_consultation__dropdown">
+			<option value="">Select a service</option>
+			<option value="1">Image development package</option>
+			<option value="2">Closet edit package</option>
+			<option value="3">Online shopping package</option>
+		</select>
+		<input type="submit" class="book_a_consultation__submit" value="Submit">		
+		</section></center>
+	</main>
+	<footer>Copyright 2022, STYLLING</footer>
+</body>
+</html>

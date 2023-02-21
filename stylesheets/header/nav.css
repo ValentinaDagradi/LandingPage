@@ -1,0 +1,38 @@
+.nav {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+.nav__items {
+    list-style: none;
+    flex-direction: row;
+}
+  
+.nav__item {
+    display: block;
+    margin: 1rem;
+    align-items: center;
+} 
+
+.nav__link{
+    text-decoration: none;
+    color: white;
+}
+  
+.nav__link:hover{ 
+    background: #ff006e;
+    padding: 5px; 
+}
+
+
+@media screen and (min-width: 768px){
+    .nav__items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+} 
