@@ -1,6 +1,7 @@
 .service__name{
     border-bottom: 1px solid transparent;   
     transition: border .2s ease-in;
+    margin-bottom: 0;
 }
 
 .service__name, .service center:last-of-type {
